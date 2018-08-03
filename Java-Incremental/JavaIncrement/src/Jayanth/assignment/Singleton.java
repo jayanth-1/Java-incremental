@@ -3,9 +3,9 @@ package Jayanth.assignment;
 public class Singleton {
 
         String a;
-        public static Singleton prints(String a){
-            a = "Hi ";               
-            return new Singleton();
+        public static Singleton prints(String b){
+            a=b;                    // It initializes string 
+            return new Singleton(); // It return singleton object
 
         }
 
