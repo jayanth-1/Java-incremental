@@ -8,7 +8,8 @@ public class Data{
         System.out.println("int value " + a +"char value "+ b);
     }
 
-    public void localVariablesPrint(int p,int q){
+    public void localVariablesPrint(){
+        int p,q;
         System.out.println("local p "+p +"local q "+q);
     }
 
